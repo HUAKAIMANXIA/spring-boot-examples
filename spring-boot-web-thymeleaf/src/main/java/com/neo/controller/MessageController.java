@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 @RequestMapping("/")
 public class MessageController {
-
+	// 我的注释
 	private final MessageRepository messageRepository;
 
 	public MessageController(MessageRepository messageRepository) {
